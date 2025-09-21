@@ -1,3 +1,16 @@
-**/*.log
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Environment files
+.env
+*.env
+# Logs and outputs
+*.log
+outputs/
+# System files
 .DS_Store
-.ipynb_checkpoints
+Thumbs.db
